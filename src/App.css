@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.card {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  background: white;
+}
+
+.sub-title {
+  color: #696969;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #007bff !important;
+  color: white !important;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.card img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.player-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.description-text {
+  text-align: justify;
+}
+
+.details-toggle {
+  display: flex;
+  justify-content: flex-end;  
+  align-items: center;
+  padding-right: 20px;
+}
+
+.details-toggle button {
+  font-size: 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
